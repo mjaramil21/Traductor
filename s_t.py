@@ -14,12 +14,29 @@ import glob
 from gtts import gTTS
 from googletrans import Translator
 
-
+   """
+    <style>
+        .stApp {
+            background-color: #fcf4e1;
+            color: #fca11b;
+            text-align: center;
+        }
+        h2, h3, h4, h5, h6, label, span, div {
+            color: #898ed7 !important;
+        }
+        .bk-btn {
+            background-color: #102C54 !important;
+            color: #9fc2e0 !important;
+            border: 2px solid #9fc2e0 !important;
+            font-size: 16px !important;
+            padding: 10px 20px !important;
+            border-radius: 8px !important;
+        }
 st.title("TRADUCTOR.")
 st.subheader("Escucho lo que quieres traducir.")
 
 
-image = Image.open('OIG7.jpg')
+image = Image.open('imagen_2025-05-01_214551117.png')
 
 st.image(image,width=300)
 with st.sidebar:
