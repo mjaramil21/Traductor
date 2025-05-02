@@ -32,6 +32,11 @@ from googletrans import Translator
             padding: 10px 20px !important;
             border-radius: 8px !important;
         }
+            </style>
+    """,
+    unsafe_allow_html=True
+)
+
 st.title("TRADUCTOR.")
 st.subheader("Escucho lo que quieres traducir.")
 
