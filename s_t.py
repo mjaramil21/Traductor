@@ -14,7 +14,8 @@ import glob
 from gtts import gTTS
 from googletrans import Translator
 
-   """
+st.markdown( 
+"""
     <style>
         .stApp {
             background-color: #fcf4e1;
